@@ -15,7 +15,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
         </dependency>
         <!--编写更少量的代码：使用apache commons工具类库:
         https://www.cnblogs.com/ITtangtang/p/3966955.html-->

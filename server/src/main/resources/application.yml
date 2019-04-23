@@ -47,7 +47,5 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
 
-dubbo
-    registry
-        address: zookeeper://127.0.0.1:2181
+
 

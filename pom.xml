@@ -19,7 +19,7 @@
 
     <groupId>com.leigq.www</groupId>
     <artifactId>dubbo-commodity</artifactId>
-    <version>${dubbo-commodity.version}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>dubbo-commodity</name>
     <description>Demo project for Spring Boot</description>
 
