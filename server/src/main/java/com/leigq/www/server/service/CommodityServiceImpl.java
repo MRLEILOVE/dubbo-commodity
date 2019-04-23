@@ -1,10 +1,10 @@
 package com.leigq.www.server.service;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.leigq.www.dubbo.api.entity.Commodity;
 import com.leigq.www.dubbo.api.service.CommodityService;
 import com.leigq.www.dubbo.model.mapper.CommodityMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
