@@ -1,13 +1,19 @@
 package com.leigq.www.server.service;
 
+import java.math.BigDecimal;
+import java.util.Date;
+
 import com.alibaba.dubbo.config.annotation.Service;
+import com.google.common.collect.Lists;
 import com.leigq.www.dubbo.api.entity.Commodity;
 import com.leigq.www.dubbo.api.service.CommodityService;
 import com.leigq.www.dubbo.model.mapper.CommodityMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,9 +27,9 @@ import java.util.List;
  * 修改备注： <br>
  * </p>
  */
-@Service(protocol = {"dubbo","rest"}, version = "1.0", timeout = 3000, validation = "true")
 @org.springframework.stereotype.Service
 @Transactional
+@Service(version = "1.0")
 @Slf4j
 public class CommodityServiceImpl implements CommodityService {
 
