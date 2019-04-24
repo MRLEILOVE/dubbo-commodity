@@ -62,6 +62,10 @@ dubbo:
   # 提供商
   provider:
     timeout: 1000
+  # monitor服务监控中心
+  monitor:
+    protocol: registry
+
 
 
 
