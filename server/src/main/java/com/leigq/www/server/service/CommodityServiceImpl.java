@@ -1,19 +1,12 @@
 package com.leigq.www.server.service;
 
-import java.math.BigDecimal;
-import java.util.Date;
-
 import com.alibaba.dubbo.config.annotation.Service;
-import com.google.common.collect.Lists;
 import com.leigq.www.dubbo.api.entity.Commodity;
 import com.leigq.www.dubbo.api.service.CommodityService;
 import com.leigq.www.dubbo.model.mapper.CommodityMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -35,7 +28,6 @@ public class CommodityServiceImpl implements CommodityService {
 
     private final CommodityMapper commodityMapper;
 
-    @Autowired
     public CommodityServiceImpl(CommodityMapper commodityMapper) {
         this.commodityMapper = commodityMapper;
     }
